@@ -1,3 +1,5 @@
+"use strict";
+
 const cash = prompt('Введите ваш доход');
 let tax;
 let minSum = 15000;

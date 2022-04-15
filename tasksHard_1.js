@@ -1,3 +1,5 @@
+"use strict";
+
 const cash = prompt('Введите ваш доход');
 let tax;
 if (cash <= 15000) {
