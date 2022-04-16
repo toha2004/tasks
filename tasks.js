@@ -1,7 +1,6 @@
 
 
-let rain;
-alert(Math.round(Math.random(0, 1)));
+const rain = Math.round(Math.random(0, 1) );
 if (rain === 1) {
     console.log('Пошёл дождь. Возьмите зонт!');
 } else {
@@ -25,7 +24,7 @@ if (sum >= 265) {
 const cash = prompt('Владимир, сколько денег вы хотите снять');
 
 if (cash % 100 === 0) {
-    console.log('Возьмите деньги Владимир');
+    console.log('Возьмите деньги, Владимир');
 } else {
     console.log('Введите другую сумму');
 }

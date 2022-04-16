@@ -1,22 +1,10 @@
 "use strict";
 
-const x = prompt('Введите число');
-const y = prompt('Введите число');
+const number1 = prompt('Введите число');
+const number2 = prompt('Введите число');
 
-
-function max(x, y) {
-    return (x < y) ? x : y;
+function min(number1, number2) {
+    return (number1 < number2) ? number1 : number2;
 }
-console.log(max(x, y));
 
-/*function max(x, y){
-    return Math.max(x, y);
-}
-console.log(max(x, y));
-
-
-function max(x, y){
-    if(x > y) return x;
-    else return y;
-}
-console.log(max(x, y));*/
+console.log('минимальное число', min(number1, number2));
